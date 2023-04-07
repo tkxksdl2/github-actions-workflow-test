@@ -3,7 +3,7 @@ on:
   push:
     - main
 jobs:
-  First-Echo:
+  first:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is first Github Actions"
