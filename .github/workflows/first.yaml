@@ -16,5 +16,5 @@ jobs:
       - name: Print working directory
         run: pwd
       - name: List files
-        use: actions/checkout@v3
+        uses: actions/checkout@v3
         run: ls -al
