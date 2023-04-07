@@ -1,7 +1,8 @@
 name: First
 on:
   push:
-    - main
+    branches:
+      - main
 jobs:
   first:
     runs-on: ubuntu-latest
