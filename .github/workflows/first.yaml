@@ -8,3 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is first Github Actions"
+  second:
+    name: PWD & LS
+    runs-on: ubuntu-latest
+    needs: first
+    steps:
+      - name: Print working directory
+        run: pwd
+      - name: List files
+        run: ls -al
